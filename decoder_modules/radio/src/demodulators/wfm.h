@@ -117,9 +117,9 @@ namespace demod {
         // ============= INFO =============
 
         const char* getName() { return "WFM"; }
-        double getIFSampleRate() { return 250000.0; }
+        double getIFSampleRate() { return 1000000.0; }
         double getAFSampleRate() { return getIFSampleRate(); }
-        double getDefaultBandwidth() { return 150000.0; }
+        double getDefaultBandwidth() { return 250000.0; }
         double getMinBandwidth() { return 50000.0; }
         double getMaxBandwidth() { return getIFSampleRate(); }
         bool getBandwidthLocked() { return false; }
