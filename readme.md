@@ -1,8 +1,10 @@
+# This fork with a modified wfm.h file, extended IF samplerate to 750ksps to satisfy some non-standard FM radio station. just for avoiding audio clipping, nothing special.
+## Attention: May cause performance issue(lagging) when running on lower-end computers.
+
 # SDR++, The bloat-free SDR software<br>
 
 ![Screenshot](https://i.imgur.com/Ter2MQJ.png)
 SDR++ is a cross-platform and open source SDR software with the aim of being bloat free and simple to use.
-
 ![Build](https://github.com/AlexandreRouma/SDRPlusPlus/workflows/Build%20Binaries/badge.svg)
 
 * [Patreon](https://patreon.com/ryzerth)
