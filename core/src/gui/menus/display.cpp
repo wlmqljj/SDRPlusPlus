@@ -92,7 +92,7 @@ namespace displaymenu {
 
         fftSizeId = 3;
         int fftSize = core::configManager.conf["fftSize"];
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 10; i++) {
             if (fftSize == FFTSizes[i]) {
                 fftSizeId = i;
                 break;
