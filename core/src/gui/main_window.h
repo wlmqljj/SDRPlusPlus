@@ -37,7 +37,7 @@ private:
     static void vfoAddedHandler(VFOManager::VFO* vfo, void* ctx);
 
     // FFT Variables
-    // int fftSize = 8192 * 8;
+    int fftSize
     std::mutex fft_mtx;
     fftwf_complex *fft_in, *fft_out;
     fftwf_plan fftwPlan;
